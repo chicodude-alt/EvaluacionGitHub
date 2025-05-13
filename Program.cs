@@ -11,9 +11,9 @@ namespace EvaluacionGitHub
         static void Main(string[] args)
         {
             Console.WriteLine("Proyecto de ventas");
-
+            MostrarDatos();
         }
-        public void MostrarDatos()
+        static void MostrarDatos()
         {
             Console.WriteLine("Ever Aaron Centeno Castro. Numero de carnet 24509620");
         }
